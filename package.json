@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "node --require dotenv/config pull.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },
