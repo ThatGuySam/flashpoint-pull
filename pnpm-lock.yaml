@@ -2,6 +2,10 @@ lockfileVersion: 5.3
 
 specifiers:
   astro: ^0.22.19
+  dotenv: ^14.3.2
+
+dependencies:
+  dotenv: 14.3.2
 
 devDependencies:
   astro: 0.22.19
@@ -1013,6 +1017,11 @@ packages:
       domelementtype: 2.2.0
       domhandler: 4.3.0
     dev: true
+
+  /dotenv/14.3.2:
+    resolution: {integrity: sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
