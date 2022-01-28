@@ -55,7 +55,7 @@ export function downloadFile ({
         })
 
         file.on("finish", () => {
-            resolve(  )
+            resolve( destination )
         })
 
         file.on("error", err => {
