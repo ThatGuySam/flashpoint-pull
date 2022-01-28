@@ -16,6 +16,7 @@
     "dotenv": "^14.3.2",
     "download": "^8.0.0",
     "fs-extra": "^10.0.0",
+    "lzma-native": "^8.0.6",
     "node-stream-zip": "^1.15.0",
     "progress": "^2.0.3"
   }
