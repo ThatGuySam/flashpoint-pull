@@ -6,6 +6,7 @@ specifiers:
   dotenv: ^14.3.2
   download: ^8.0.0
   fs-extra: ^10.0.0
+  node-stream-zip: ^1.15.0
   progress: ^2.0.3
 
 dependencies:
@@ -13,6 +14,7 @@ dependencies:
   dotenv: 14.3.2
   download: 8.0.0
   fs-extra: 10.0.0
+  node-stream-zip: 1.15.0
   progress: 2.0.3
 
 devDependencies:
@@ -3045,6 +3047,11 @@ packages:
   /node-releases/2.0.1:
     resolution: {integrity: sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==}
     dev: true
+
+  /node-stream-zip/1.15.0:
+    resolution: {integrity: sha512-LN4fydt9TqhZhThkZIVQnF9cwjU3qmUH9h78Mx/K7d3VvfRqqwthLwJEUOEL0QPZ0XQmNN7be5Ggit5+4dq3Bw==}
+    engines: {node: '>=0.12.0'}
+    dev: false
 
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
