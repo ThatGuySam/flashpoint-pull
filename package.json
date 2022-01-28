@@ -12,6 +12,7 @@
     "astro": "^0.22.19"
   },
   "dependencies": {
-    "dotenv": "^14.3.2"
+    "dotenv": "^14.3.2",
+    "fs-extra": "^10.0.0"
   }
 }
